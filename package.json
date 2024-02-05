@@ -1,0 +1,25 @@
+{
+  "name": "solidityscopereducer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojtaba-eshghie/SolidityScopeReducer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojtaba-eshghie/SolidityScopeReducer/issues"
+  },
+  "homepage": "https://github.com/mojtaba-eshghie/SolidityScopeReducer#readme",
+  "dependencies": {
+    "solc-typed-ast": "github:ConsenSys/solc-typed-ast",
+    "typescript": "^5.3.3"
+  }
+}

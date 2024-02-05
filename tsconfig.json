@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6", // Changed from "commonjs" to "es6"
+        "strict": true,
+        "esModuleInterop": true,
+        "outDir": "./dist", // Output directory for compiled files
+        "moduleResolution": "node"
+    },
+    "include": ["src/**/*"] // Assuming your TypeScript files are in a src directory
+}
