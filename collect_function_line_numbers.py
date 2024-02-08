@@ -44,5 +44,5 @@ def find_function_definitions(solidity_code):
 # Sample solidity code
 solidity_code = open('sample.sol', 'r').read()
 # Get contract definition line numbers
-contract_definitions = find_function_definitions(solidity_code)
+function_definitions = find_function_definitions(solidity_code)
 print(contract_definitions)
